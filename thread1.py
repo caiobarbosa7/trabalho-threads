@@ -1,7 +1,6 @@
 # importação de biblioteca
 import threading
 import time
-import math
 
 # estrutura da Thread
 def estrutura(nome, inicio, fim): # def é quando vai fazer uma estrutura, como o function no js
@@ -24,4 +23,5 @@ thread1.join()
 thread2.join()
 
 print("Todas as threads foram finalizadas.")
+
 
